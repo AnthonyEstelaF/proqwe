@@ -1,6 +1,8 @@
 import "./Header.css";
 
 const Header = () => {
-    return <span className="header">📽Watcher🎬</span>;     
+    return <span onClick={() => window.scroll(0,0)} className="header">
+        📽Watcher🎬
+    </span>;     
 };
 export default Header;
